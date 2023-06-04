@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      .main{
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background-color: rgb(255, 255, 255);
+      }
+      .sub1{
+          padding-top: 30px; 
+          padding: 50px;
+      }
+      .sub2{
+        background-color: khaki;
+        height:100px;
+        width: 100px;
+        border-radius: 100%;
+        justify-content: center;
+        text-align: center;
+      }
+      .sub3{
+        background-color: rgba(147, 255, 251, 0.73);
+        height:100px;
+        width: 100px;
+        margin-left: 300px;
+        margin-top: -100px;
+        border-radius: 100%;
+        justify-content: center;
+        text-align: center;
+      }
+      .sub4{
+        background-color: rgba(125, 222, 255, 0.73);
+        height:100px;
+        width: 100px;
+        margin-left: 630px;
+        margin-top: -100px;
+        border-radius: 100%;
+        justify-content: center;
+        text-align: center;
+      }
+      .div1{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        top: 0px;
+      }
+       .div1 input{
+        position: sticky;
+        border-radius: 10px 10px 10px 10px;
+        opacity: 0.5;
+        margin: 10px;
+        margin-left: 15px;
+        background-color: white;
+        top: 30px;
+
+      }
+      .x{
+        margin-top: 15px;
+        top: 20px;
+     }
+      .main2{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        margin-top:190px;
+      }
+      .sub5{
+        position: absolute;
+        display: block;
+         width: 50px;
+         height: 50px;
+      }
+      .d1{
+       width: 100%;
+       height: 400px;
+       padding-top: 20px;
+       background-color:rgb(210, 223, 219);
+     }
+     .qw{
+        width: 180px;
+        height: 180px;
+        margin-top:20px;
+        margin-left: 40px;
+     }
+     .img{
+        width: 180px;
+        height: 180px;
+        margin-top:20px;
+        margin-left: 40px;
+        border-radius: 100%;
+     }
+     /* sub slides */
+       
+            .main2{
+              background-color: rgba(242, 239, 239, 0.465);
+            }
+             .main3{
+            width: 200%;
+            height: 270px;
+            margin: 30px;
+            background-color: rgba(107, 107, 107, 0);
+            display: flex;
+             }
+             .main2 .main3 img{
+                margin:15px;
+                width: 180px;
+                float: left;
+                transition: all 0.5s;
+             }
+             .main3 img:hover{
+                transform: scale(1.2);
+             } 
+        .main3{
+            position: relative;
+            width: 200%;
+            margin: 0px;
+            left: 0px;
+        }
+        .main3:hover{
+            animation: slider1  10s  infinite alternate;
+        }
+
+        .main3 img{
+            float: left;
+            margin-top: -10px;
+            width: 20%;
+        }
+        @keyframes slider1 {
+            20%{ left: 0;}
+            40%{ left:-50%;} 
+            60%{left:-80%;}
+            }
+            /* restartents starts */
+            .main5{
+            width: 200%;
+            height: 180px;
+            margin: 10px;
+            top: 500px;
+            background-color: rgba(255, 255, 255, 0);
+            display: flex;
+             }
+             .main4 .main5 img{
+                margin:25px;
+                width: 180px;
+                float: left;
+                transition: all 0.5s;
+             }
+             .main5 img:hover{
+                transform: scale(1.2);
+             } 
+        .main5{
+            position: relative;
+            width: 200%;
+            margin: 0px;
+            left: 0px;
+            top:20px;
+        }
+        .main5 img{
+          box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.037),-5px 5px 1px rgba(0, 0, 0, 0.058),5px -5px 1px rgba(0, 0, 0, 0.063),-5px -5px 1px rgba(0, 0, 0, 0.055);
+        }
+        .main5:hover{
+            animation: slider1  10s  infinite alternate;
+        }
+
+        .main5 img{
+            float: left;
+            margin-top: -10px;
+            width: 20%;
+        }
+        @keyframes slider1 {
+            20%{ left: 0;}
+            40%{ left:-10%;} 
+            60%{left:-30%;}
+            }
+            .heading{
+              margin-top: 500px;
+            }
+             /* food list starts   */
+               /* images starts */
+               .list{
+                margin-top: 100px;
+                padding: 80px;
+               }
+            .a{
+            position: relative;
+            height: 400px;
+            width: 350px;
+            background-color: rgba(180, 180, 180, 0.104);
+            border-radius: 5%;
+            margin: 50px;
+            /* box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.144),-6px 6px 6px  rgba(0, 0, 0, 0.141),6px -6px 6px  rgba(0, 0, 0, 0.163),-6px -6px 6px  rgba(0, 0, 0, 0.150); */
+         }
+         .a:hover{
+            box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.144),-6px 6px 6px  rgba(0, 0, 0, 0.141),6px -6px 6px  rgba(0, 0, 0, 0.163),-6px -6px 6px  rgba(0, 0, 0, 0.150);
+         }
+        img{
+            margin: 13px;
+            border-radius: 5%;
+         }
+         .a2{
+            margin-top: -10px;
+            margin-left: 20px;
+         }
+         a{
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+         }
+         .b1{
+            position: absolute;
+            height: 20px;
+            width: 130px;
+            background-color: rgb(40, 97, 241);
+            text-align: center;
+            margin-top: -50px;
+            margin-left: 20px;
+            color: white;
+         }
+         .b2{
+            position: absolute;
+            height: 20px;
+            width: 50px;
+            background-color: rgba(255, 255, 255, 0.794);
+            border-radius: 10%;
+            margin-top: -50px;
+            margin-left: 270px;
+            text-align: center;
+         }
+         .b3{
+            position: absolute;
+            height: 20px;
+            width: 50px;
+            background-color: rgb(52, 169, 52);
+            text-align: center;
+            color: white;
+            border-radius: 10%;
+            margin-top: -60px;
+            margin-left: 260px;
+         }
+             .options{
+              margin: 20px;
+              padding: 20px;
+              width: 100%;
+              height: 500px;
+              background-color: rgb(255, 255, 255);
+              margin-top:30px;
+             }
+             .s1{
+              color: rgba(80, 25, 25, 0);
+              margin-top: -80px;
+              margin-left: -20px;
+             }
+             .s1 :hover{
+                   font-size: 20px;
+                   color: rgba(0, 0, 0, 0.519);
+                   width:1210px;
+                   height: 100px;
+                   background-color: rgb(255, 255, 255);
+                   margin-right: -20px;
+                   margin-top: 100px;
+                   border: 2px solid black;
+                   padding: 20px;
+               }
+               .s2{
+              color: rgba(80, 25, 25, 0);
+              margin-top: -80px;
+              margin-left: -20px;
+             }
+             .s2 :hover{
+                   font-size: 20px;
+                   color: rgba(0, 0, 0, 0.519);
+                   width:1210px;
+                   height: 100px;
+                   background-color: rgb(255, 255, 255);
+                   margin-right: -20px;
+                   margin-top: 100px;
+                   border: 2px solid black;
+                   padding: 20px;
+               }
+               .s3{
+              color: rgba(80, 25, 25, 0);
+              margin-top: -80px;
+              margin-left: -20px;
+             }
+             .s3 :hover{
+                   font-size: 20px;
+                   color: rgba(0, 0, 0, 0.519);
+                   width:1210px;
+                   height: 100px;
+                   background-color: rgb(255, 255, 255);
+                   /* margin-left: 20px; */
+                   margin-right: -20px;
+                   margin-top: 100px;
+                   border: 2px solid black;
+                   padding: 20px;
+               }
+               .s4{
+              color: rgba(80, 25, 25, 0);
+              margin-top: -80px;
+              margin-left: -20px;
+             }
+             .s4 :hover{
+                   font-size: 20px;
+                   color: rgba(0, 0, 0, 0.519);
+                   width:1210px;
+                   height: 100px;
+                   background-color: rgb(255, 255, 255);
+                   margin-left: 20px;
+                   margin-right: -20px;
+                   margin-top: 100px;
+                   border: 2px solid black;
+                   padding: 20px;
+               }
+               .s5{
+              color: rgba(80, 25, 25, 0);
+              margin-top: -80px;
+              margin-left: -20px;
+             }
+             .s5 :hover{
+                   font-size: 20px;
+                   color: rgba(0, 0, 0, 0.519);
+                   width:1210px;
+                   height: 100px;
+                   background-color: rgb(255, 255, 255);
+                   /* margin-left: 20px; */
+                   margin-right: -20px;
+                   margin-top: 100px;
+                   border: 2px solid black;
+                   padding: 20px;
+               }
+
+             .end{
+              width: 100%;
+              height: 600px;
+              background-color: rgba(236, 233, 233, 0.607);
+              margin-top: 100px;
+             }
+             a{
+              text-decoration: none;
+             }
+             .list1 a{
+              background-color: transparent;
+              box-shadow: none;
+             }
+             .result{
+              position: relative;
+              width: 100%;
+              height: 200px;
+              margin-top: -250px;
+            }
+            .result p{
+              font-size: 30px;
+              margin: 260px;
+              padding: 80px;
+            }
+            .result img{
+              position: absolute;
+              height: 130px;
+              width: 130px;
+             margin-left: 720px;
+             margin-top: -420px;
+            }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub1">
+            <a href="https://www.zomato.com/" target="_blank"><img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="" style="width: 130px; height: 50px; margin-left: 20px;"></a>
+            <input type="text" placeholder="Add your current location" style="width: 320px; height: 30px; margin-left: 30px;border-right: none;">
+            <input type="text" placeholder="      Search for restaurant,cuisine or a dish"  style="width:320px;height: 30px;margin-left: -20px; border-left: none;"><i class="fa fa-search" style="color: rgba(72, 68, 68, 0.789);font-size: 20px; width: 50px; height: 40px;margin-left: -320px;margin-top: 10px;"></i>
+            <!-- <input type="text" placeholder="search for resturent,cuisine or a dish" style="width: 320px; height: 30px;"> -->
+            <a href="https://www.zomato.com/mobile"><input type="submit" value="Log in" style="width: 100px; height: 30px; margin-left: 300px;"></a>
+            <a href="https://www.zomato.com/mobile"><input type="submit" value="Sign up"  style="width: 100px; height: 30px; margin-left: 30px;"></a>
+
+            <p style="margin-top: 20px;margin-left: 20px;"> Home / India / Hyderabad Restaurants</p><br>
+            <div class="sub2">
+            <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp" alt="" style="width: 50px;height: 50px;margin-top: 20px;">
+            <h4 style="font-size: 20px; margin-left: 110px;margin-top: -30px;color:rgb(243, 54, 16);"> Delivery</h4>
+            </div>
+            <div class="sub3">
+                <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png" alt="" style="width: 50px;height: 50px;margin-top: 20px;">
+            <h4 style="font-size: 20px; margin-left: 110px;margin-top: -30px;color:rgb(243, 54, 16);"> Diningout</h4>
+            </div>
+            <div class="sub4">
+                <img src="https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png" alt="" style="width: 50px;height: 50px;margin-top: 20px;">
+            <h4 style="font-size: 20px; margin-left: 110px;margin-top: -30px;color:rgb(243, 54, 16);"> Nightlife</h4>
+            </div>
+            <br>
+            <br>
+            <hr>
+            <div class="div1">
+              <div class="x">
+                <input type="text" placeholder="  Filter"  style="width: 50px;height:30px;font-size: 15px; ">
+                <input type="text" placeholder="  Rating:4.0+" style="width: 90px;height:30px;font-size: 15px;">
+                <input type="text" placeholder="  pure veg" style="width: 90px;height:30px;font-size: 15px;">
+                <input type="text" placeholder="  cuisines" style="width: 70px;height:30px;font-size: 15px;">
+                <input type="text" placeholder=" more filters" style="width: 100px;height:30px;font-size: 15px;">
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="main2">
+      <h1 style="margin-left: 60px;">Inspiration for your first order</h1>
+      <div class="main3">
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=30308" target="_blank"><img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=68987" target="_blank"><img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=9055"  target="_blank"><img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=55280" target="_blank"><img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=56691" target="_blank"><img src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=45873" target="_blank"><img src="https://b.zmtcdn.com/data/o2_assets/2f34540e0b12058f5f8b9390c3a3fb4a1648972281.png" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=19315" target="_blank"> <img src="https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png" alt=""  style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=10296" target="_blank"> <img src="https://b.zmtcdn.com/data/dish_images/91c554bcbbab049353a8808fc970e3b31615960315.png" alt=""  style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=10296" target="_blank"> <img src="https://b.zmtcdn.com/data/o2_assets/8dc39742916ddc369ebeb91928391b931632716660.png" alt=""  style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=35013" target="_blank"> <img src="https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png" alt=""  style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=12025" target="_blank"> <img src="https://b.zmtcdn.com/data/o2_assets/fc641efbb73b10484257f295ef0b9b981634401116.png" alt=""  style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/restaurants?place_name=Hyderabad&dishv2_id=35301" target="_blank"> <img src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png" alt=""  style="border-radius: 100%;" class="qw"></a>
+      <h2><p style="margin-left:-2460px;margin-top: 210px;">Briyani</p></h2>
+      <h2><p style="margin-left:-2230px;margin-top: 210px;">Pizza</p></h2>
+      <h2><p style="margin-left:-1820px;margin-top: 210px;">Chicken</p></h2>
+      <h2><p style="margin-left:-2030px;margin-top: 210px;">Burger</p></h2>
+      <h2><p style="margin-left:-1620px;margin-top: 210px;">Shawarma</p></h2>
+      <h2><p style="margin-left:-1390px;margin-top: 210px;">Rolls</p></h2>
+      <h2><p style="margin-left:-1170px;margin-top: 210px;">Cake</p></h2>
+      <h2><p style="margin-left:-980px;margin-top: 210px;">Noodles</p></h2>
+      <h2><p style="margin-left:-760px;margin-top: 210px;">Dosa</p></h2>
+      <h2><p style="margin-left:-550px;margin-top: 210px;">Thali</p></h2>
+      <h2><p style="margin-left:-360px;margin-top: 210px;">Sandwich</p></h2>
+      <h2><p style="margin-left:-150px;margin-top: 210px;">Fired Rice</p></h2>
+    </div>
+    </div>
+    <div class="main4">
+      <div class="heading">
+      <h1 style="margin-left: 60px;">Top Brands For You</h1>
+      </div>
+       <div class="main5">
+      <a href="https://www.zomato.com/hyderabad/mehfil-narayanguda/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/d76be28e0885f4563a1dbaf3a45f4b74_1635882663.png?output-format=webp" style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/shah-ghouse-hotel-restaurant-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/8e611fa769c66049e2af45b00b1d8d52_1635882594.png?output-format=webp" style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/pista-house-20-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/0f13b4a115d1420b049835a5b2037a46_1649660664.png?output-format=webp" style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/mcdonalds-2-abids/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/3d80cb89fca9e212f7dab2c1914ebd8f_1643983679.png?output-format=webp" style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/paradise-biryani-1-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/6f7f4964abc7bb71c4bc370ccf36ff91_1633121322.png?output-format=webp" style="border-radius: 100%;"class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/burger-king-malakpet/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/6a11fd0f30c9fd9ceaff2f5b21f61d23_1617187971.png?output-format=webp" style="border-radius: 100%;"class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/pizza-hut-kacheguda/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/c38f7540bcc5a38e918856ac06409056_1504531339.png?output-format=webp" style="border-radius: 100%;" class="qw"></a>
+      <a href="https://www.zomato.com/hyderabad/kfc-abids/order" target="_blank"><img src="https://b.zmtcdn.com/data/brand_creatives/logos/466f8fc74274145f3b21795c3d21816d_1589433071.png?output-format=webp" style="border-radius: 100%;" class="qw"></a>
+      <h2><p style="margin-left:-1770px;margin-top: 210px;">Mehfil</p></h2>
+      <h2><p style="margin-left:-1590px;margin-top: 210px;"> Shah Ghouse Hotel <br> & restaurant</p></h2>
+      <h2><p style="margin-left:-1320px;margin-top: 210px;">Pista House <br> </p></h2>
+      <h2><p style="margin-left:-1100px;margin-top: 210px;">McDonald's</p></h2>
+      <h2><p style="margin-left:-890px;margin-top: 210px;">Paradise Briyani</p></h2>
+      <h2><p style="margin-left:-640px;margin-top: 210px;">Burger King</p></h2>
+      <h2><p style="margin-left:-390px;margin-top: 210px;">Pizza Hut</p></h2>
+      <h2><p style="margin-left:-150px;margin-top: 210px;">K F C</p></h2>
+    </div>
+    </div>
+    <div class="list">
+      <h1>Hyderabad restaurant</h1>
+      <div class="a">
+        <div class="a1">
+        <a href="https://www.zomato.com/hyderabad/waffled-attapur/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/3/20521003/d1978eaa9934ca815ffaef20875f4513.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="" style="height: 280px;width: 320px;"></a>
+        <div class="b1"> 50% of up to 100</div>
+        <div class="b2">70min</div>
+        </div>
+        <div class="a2">
+           <a href="https://www.zomato.com/hyderabad/waffled-attapur/order" target="_blank" >wafflted <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">waffle,Desserts,Fast Foo...  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 150/- for one</h6></a>
+           <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.8 <i class="fa fa-star"></i></p></a></div>
+        </div>
+    </div>
+    <div class="a" style="margin-top: -450px;margin-left: 480px;">
+        <div class="a1">
+        <a href="https://www.zomato.com/hyderabad/asoka-restaurant-koti" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/2/18624752/fede7833d7905b1ff88a1d8e3362c32d_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+        <div class="b1"> 50% of up to 100</div>
+        <div class="b2">35min</div>
+        </div>
+        <div class="a2">
+           <a href="https://www.zomato.com/hyderabad/asoka-restaurant-koti" target="_blank" >Ashok restaurant <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">street food ,chinies,non.. <i class="fa fa-rupee" style="margin-left: 20px;"></i> 150/- for one</h6></a>
+           <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.0 <i class="fa fa-star"></i></p></a></div>
+        </div>
+    </div>
+    <div class="a" style="margin-top: -450px;margin-left: 910px;">
+      <div class="a1">
+      <a href="https://www.zomato.com/hyderabad/ram-ki-bandi-kothapet" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/1/92651/ce899d6034c29487c1a1f0c9552f6170_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+      <div class="b1"> 50% of up to 100</div>
+      <div class="b2">21min</div>
+      </div>
+      <div class="a2">
+         <a href="https://www.zomato.com/hyderabad/ram-ki-bandi-kothapet" target="_blank" >Ram Ki Bandi <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">South Indian <i class="fa fa-rupee" style="margin-left: 20px;"></i> 150/- for one</h6></a>
+         <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.2 <i class="fa fa-star"></i></p></a></div>
+      </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/paradise-biryani-1-charminar" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/2/91662/fa16bfd113ef53f7912450f0f585e77a_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">70min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/paradise-biryani-1-charminar" target="_blank" >Paradise <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">waffle,Desserts,Fast Foo...  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 150/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.7 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/grand-hotel-abids" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/0/92020/3088315ab85025468fb789f2871bf131_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">26min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/grand-hotel-abids" target="_blank" >Grand Hotel <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,chinies,mu.. <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.0 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/mithaiwala-kothapet/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/1/92951/10f11d1f7dbd5f063aef763525381169_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">39min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/mithaiwala-kothapet/order" target="_blank" >Mithaiwala <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Mithai,Bakery,Street F... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.2 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/shah-ghouse-hotel-restaurant-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/0/93970/ae0a71b4d560c4bcf7f52761c614fcc1_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">74min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/shah-ghouse-hotel-restaurant-charminar/order" target="_blank" >Shah Ghouse Hotel.. <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Mughlai,c...  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/papadams-blue-kothapet/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/2/94352/5fad0e64c0129d2de071324aa9a61689_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">46min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/papadams-blue-kothapet/order" target="_blank" >Papadams Blue <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Chinese,M... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.9 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/waffled-attapur/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/6/18313046/229617cef8c413b9f39c93de13a64ff3_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">37min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/waffled-attapur/order" target="_blank" >Mataam AI Yamani <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Arabian,Mandi <i class="fa fa-rupee" style="margin-left: 90px;"></i> 200/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.8 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/waffled-attapur/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/8/92558/a0eddc7af3680206bf36ae6195a3c0ac_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">24min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/waffled-attapur/order" target="_blank" >Nimrah Restaurant <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Bakery,Fast Food  <i class="fa fa-rupee" style="margin-left: 80px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/fancy-ice-cream-1-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/1/18649671/face3c9bf9d4f584c9f06db8e297648d_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">17min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/fancy-ice-cream-1-charminar/order" target="_blank" >Fancy Ice Cream <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Desserts,Ice Cream <i class="fa fa-rupee" style="margin-left: 60px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/peshawar-2-malakpet/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/6/20635616/032552d2a08c2589ccf9e6a6d24f6f5c_o2_featured_v2.jpg?output-format=webp" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">25min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/peshawar-2-malakpet/order" target="_blank" >Peshawar <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Seafood.. <i class="fa fa-rupee" style="margin-left: 40px;"></i> 200/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.2 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/chichas-lakdikapul/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/0/18228830/2daff6bca2e1f32d99e9593d758ec9f8_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">58min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/chichas-lakdikapul/order" target="_blank" >Chicha's <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Kebab,Rolls,Chinese,B..  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.9 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/pista-house-bakery-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/8/19937288/b8f98cd0239c1792920ffd087a83f9fa_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">17min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/pista-house-bakery-charminar/order" target="_blank" >Pista House Bakery <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Bakery,Desserts,Shaw.. <i class="fa fa-rupee" style="margin-left: 30px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.3 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/al-rabea-al-arabi-cafeteria-saroor-nagar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/9/19531339/2c324bbe071e4dd4aa339c1c37f81128_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">36min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/al-rabea-al-arabi-cafeteria-saroor-nagar/order" target="_blank" >AI Rabea AI Ara... <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Wraps,Sandwich,Burg.. <i class="fa fa-rupee" style="margin-left: 20px;"></i> 350/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.4 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/mehfil-narayanguda/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/3/93043/ddff0787805c7d2377e232d550af5dd6_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">32min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/mehfil-narayanguda/order" target="_blank" >Mehfil <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Kebab,Biryani   <i class="fa fa-rupee" style="margin-left: 100px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.0 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/ms-mandi-shawarma-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/1/19497661/f3e30f26bacec0c1792418bd23df5759_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">29min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/ms-mandi-shawarma-charminar/order" target="_blank" >MS Mandi&Sha.. <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Mandi Fas.. <i class="fa fa-rupee" style="margin-left: 20px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.9 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/4m-biryani-house-musheerabad/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/2/94402/4e33710612ee658fe1025e32131f3af8_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">44min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/4m-biryani-house-musheerabad/order" target="_blank" >4M Briyani House <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Briyani,Hyderabad,no... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 350/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.2 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/shah-ghouse-special-shawarma-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/0/19028470/e45617ac0f1bb39d3d0d3101ebf7d009_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">27min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/shah-ghouse-special-shawarma-charminar/order" target="_blank" >Shah Ghouse Spe... <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Shawarma,Bakery,Bev...  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/hotel-shadab-ghansi-bazaar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/1/91711/f3704598c336542166b781026fc5ad4b_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">59min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/hotel-shadab-ghansi-bazaar/order" target="_blank" >hotel Shadab <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Mughlai.. <i class="fa fa-rupee" style="margin-left: 20px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/al-akbar-fast-food-corner-2-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/5/19891595/6d270c5961d575b31e79488869e9f363_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">16min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/al-akbar-fast-food-corner-2-charminar/order" target="_blank" >AI Akbar Fast Food..  <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Chinese,Beverages <i class="fa fa-rupee" style="margin-left: 70px;"></i> 350/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/pizza-hut-kacheguda/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/4/90384/7d1f0c24bf8d0ddf5aad917a9cc1d216_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">36min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/pizza-hut-kacheguda/order" target="_blank" > Pizza Hut<br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Pizza,Pasta,Itallan,De.. <i class="fa fa-rupee" style="margin-left: 20px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.8 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/kfc-abids/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/5/90195/0b79e39ffc2e3770f3b66b26c0e6f4fd_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">30min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/kfc-abids/order" target="_blank" >KFC <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Burger,Fast Food,Br... <i class="fa fa-rupee" style="margin-left: 40px;"></i> 350/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.0 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/food-track-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/5/19704925/5f4ec9239e2d5cf58257fb68231c4f5d_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">36min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/food-track-charminar/order" target="_blank" >Food Trick <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Fast Food,Burger,San... <i class="fa fa-rupee" style="margin-left: 40px;"></i> 350/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/burger-king-malakpet/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/8/18138658/13de0d13e2ef4676833e405662f2831a_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">36min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/burger-king-malakpet/order" target="_blank" >Burger King <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Burger,FastFood  <i class="fa fa-rupee" style="margin-left: 80px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/scoops-ice-cream-begum-bazaar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/9/91559/1ea696d2e09e937df6840d5c6e76637e_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">16min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/scoops-ice-cream-begum-bazaar/order" target="_blank" >Scoops Ice Cream <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Ice Cream,Desserts,P... <i class="fa fa-rupee" style="margin-left: 40px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.5 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/cafe-niloufer-himayath-nagar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/4/20155634/2879f553c724f48ab0d4fd4e9b2b6af1_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">30min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/cafe-niloufer-himayath-nagar/order" target="_blank" >Cafe Niloufer <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Cafe,Tea,Bakery,F... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.4 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/chotus-the-food-people-ghansi-bazaar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/9/93739/fc0cf5f469a0b7ad3689072652afa20e_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">25min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/chotus-the-food-people-ghansi-bazaar/order" target="_blank" >Chotu's The Food.. <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Chinese,B...  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.7 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/pista-house-premium-lounge-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/5/19751765/b8f98cd0239c1792920ffd087a83f9fa_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">26min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/pista-house-premium-lounge-charminar/order" target="_blank" >Pista House-Prem... <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">north Indian,Chiniese... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/redaan-restaurant-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/2/20105372/0e43ac5db578895b27d8e24d01c48c71_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">25min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/redaan-restaurant-charminar/order" target="_blank" >Redaan Restaurent <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Briyani,Chinese,,Mug... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.3 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/coffee-cream-attapur/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/8/18728578/8c0a9d3549baaa8339f525549eadda20_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">34min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/coffee-cream-attapur/order" target="_blank" >Coffee Cream <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Fast Food,Deseerts,Be....  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.0 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/al-rabea-mandi-house-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/4/20494524/16dc646cf84726cd5c088082fab16164_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">35min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/al-rabea-mandi-house-charminar/order" target="_blank" >AI Rabea Mandi.. <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Mandi <i class="fa fa-rupee" style="margin-left: 140px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.3 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/paradise-biryani-1-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/2/91662/fa16bfd113ef53f7912450f0f585e77a_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">29min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/paradise-biryani-1-charminar/order" target="_blank" >Paradise Briyani <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Biryani,North Indian,Ke... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">3.5 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/bawarchi-rtc-x-roads/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/6/90896/450c8d02eb0d15a4beb6bd56430453db_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">55min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/bawarchi-rtc-x-roads/order" target="_blank" >Bawarchi <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Chinese,s.... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/karachi-bakery-2-saroor-nagar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/2/90862/667899cd04a6a3e3c5a94e4677c174fa_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">31min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/karachi-bakery-2-saroor-nagar/order" target="_blank" >Karachi Bakery <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Bakery,Chinese,Pizza... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 200/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.2 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/hotel-nayaab-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/6/92136/c7b75d4ad0fabdc61a9b0a8bab46881d.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">21min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/hotel-nayaab-charminar/order" target="_blank" >Hotel Nayaab <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">North Indian,Mughlai,c.... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 250/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.0 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+  <div class="a">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/ms-bakery-sweets-falaknuma/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/0/18821920/121d78e7f39b9e7fc2940d9d8c1ff493_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">32min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/ms-bakery-sweets-falaknuma/order" target="_blank" >MS Bakery & Swe... <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Bakery,Desserts,Fast Fo..  <i class="fa fa-rupee" style="margin-left: 20px;"></i> 250/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.2 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 480px;">
+    <div class="a1">
+    <a href="https://www.zomato.com/hyderabad/masqati-ice-cream-1-attapur/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/2/20448972/ccbac7085d24287b46b3e101f50c9f64_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+    <div class="b1"> 50% of up to 100</div>
+    <div class="b2">30min</div>
+    </div>
+    <div class="a2">
+       <a href="https://www.zomato.com/hyderabad/masqati-ice-cream-1-attapur/order" target="_blank" >Masqati Ice Cream <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Ice Cream,Desserts,piz... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 250/- for one</h6></a>
+       <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.4 <i class="fa fa-star"></i></p></a></div>
+    </div>
+</div>
+<div class="a" style="margin-top: -450px;margin-left: 910px;">
+  <div class="a1">
+  <a href="https://www.zomato.com/hyderabad/hotel-rumaan-1-charminar/order" target="_blank"><img src="https://b.zmtcdn.com/data/pictures/chains/1/90391/5bc645dbf2bed815eb65c8e5f1d7b5ea_o2_featured_v2.jpg" alt="" style="height: 280px;width: 320px;"></a>
+  <div class="b1"> 50% of up to 100</div>
+  <div class="b2">21min</div>
+  </div>
+  <div class="a2">
+     <a href="https://www.zomato.com/hyderabad/hotel-rumaan-1-charminar/order" target="_blank" >Hotel Rumaan <br> <h6 style="font-size: 17px; color: rgba(0, 0, 0, 0.418);margin-top:10px;">Briyani,Chineses,Nort... <i class="fa fa-rupee" style="margin-left: 20px;"></i> 150/- for one</h6></a>
+     <div class="b3"><a href="" target="_blank"> <p style="font-size: 15px; color: white; margin-top: 0px;">4.1 <i class="fa fa-star"></i></p></a></div>
+  </div>
+  </div>
+ 
+    <div class="result">
+        <p>End of search results</p>
+        <img src="https://b.zmtcdn.com/web/assets/search/6d548ba48f0e4e4b46c19ad4b15a3f011615379209.jpeg" alt="">
+    </div>
+    <div  class="options">
+      <h1> Explore Options Near Me</h1>
+       <input type="text" style="width: 1250px;height: 70px;margin-top: 30px; margin-left: 40px;" ><br>
+        <h2><p style="margin-top:-50px; margin-left: 60px; color: rgba(0, 0, 0, 0.59);">Popular Cuisines near me <i class="fa fa-caret-down" style="margin-left: 900px;"></i></p></h2>
+        <div class="s1">
+          <p style="margin-left: 60px;"> Andhra food near me. Bakery food near me. Beverages food near me. Biryani food near me.Burger food near me. Chinese food near me. <br>  Desserts food near me. Ice Cream food near me. Kebab food near me. Mughlai food near me. North Indian food near me. <br>  Pizza food near me. Sandwich food near me. Seafood food near me. Shake food near me. Shawarma food near me. <br> Sichuan food near me. South Indian food near me. Street food near me. Tea food near me</p>
+        </div>
+       <input type="text" style="width: 1250px;height: 70px;margin-top: 40px; margin-left: 40px;"><br>
+       <h2><p style="margin-top:-50px; margin-left: 60px; color: rgba(0, 0, 0, 0.59);">Popular restarant types near me <i class="fa fa-caret-down" style="margin-left: 840px;"></i></p></h2>
+       <div class="s2">
+        <p style="margin-left: 60px;"> Bakeries near me. Bars near me. Beverage Shops near me. Bhojanalya near me. Cafés near me. Casual Dining near me. Clubs near me. <br> Confectioneries near me. Dessert Parlors near me. Dhabas near meFine Dining near me. Food Courts near me. Food Trucks near me. <br> Kiosks near meLounges near me. Microbreweries near mePaan Shop near me. Pubs near me. Quick Bites near me. Sweet Shops near me</p>
+      </div>
+       <input type="text" style="width: 1250px;height: 70px;margin-top: 60px; margin-left: 40px;"><br>
+       <h2><p style="margin-top:-50px; margin-left: 60px; color: rgba(0, 0, 0, 0.59);">South Indian Restaurants Near Me <i class="fa fa-caret-down" style="margin-left: 810px;"></i></p></h2>
+       <div class="s3">
+        <p style="margin-left: 60px;"> Andhra food near me. Bakery food near me. Beverages food near me. Biryani food near me.Burger food near me. Chinese food near me. <br>  Desserts food near me. Ice Cream food near me. Kebab food near me. Mughlai food near me. North Indian food near me. <br>  Pizza food near me. Sandwich food near me. Seafood food near me. Shake food near me. Shawarma food near me. <br> Sichuan food near me. South Indian food near me. Street food near me. Tea food near me</p>
+      </div>
+       <input type="text" style="width: 1250px;height: 70px;margin-top: 40px; margin-left: 40px;"><br>
+       <h2><p style="margin-top:-50px; margin-left: 60px; color: rgba(0, 0, 0, 0.59);">Top Restaurant Chains <i class="fa fa-caret-down" style="margin-left: 930px;"></i></p></h2>
+       <div class="s4">
+        <p style="margin-left: 60px;">Bikanervala ------- Burger King  ---------- Burger Singh ---------  Domino's --------- KFC <br> Krispy Kreme ---------- McDonald's ---------- Paradise Biryani ---------- Pizza HutSubway</p>
+      </div>
+       <input type="text" style="width: 1250px;height: 70px;margin-top: 80px; margin-left: 40px;"><br>
+       <a href="https://www.zomato.com/delivery-cities" target="_blank"><h2><p style="margin-top:-50px; margin-left: 60px; color: rgba(0, 0, 0, 0.59);font-size: 25px;">Cities We Deliver To <i class="fa fa-caret-down" style="margin-left: 960px;"></i></p></h2></a>
+    </div>
+    <div class="end">
+      <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="" style="width: 130px;height: 40px; margin-top: 60px; margin-left: 90px;">
+      <br><br><br><br>
+      <p><h5 style="margin-left: 90px;font-size: 20px;">About zomato</h5></p><br>
+      <p style="margin-left: 90px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Who We Are</p><br>
+      <p style="margin-left: 90px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Blog</p><br>
+      <p style="margin-left: 90px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Work With Us</p><br>
+      <p style="margin-left: 90px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Invester Relations</p><br>
+      <p style="margin-left: 90px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Report Fraud</p><br>
+      <p style="margin-left: 90px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Contact Us</p><br>
+      <br>
+      <hr>
+      <p><h5 style="margin-left: 380px;font-size: 20px; margin-top: -300px;">ZOMAVERSE</h5></p><br>
+      <p style="margin-left: 380px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Zomato</p><br>
+      <p style="margin-left: 380px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Blinkit</p><br>
+      <p style="margin-left: 380px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Feeding India</p><br>
+      <p style="margin-left: 380px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Hyperpure</p><br>
+      <p style="margin-left: 380px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Zomaland</p><br>
+      <br>
+      <p><h5 style="margin-left: 580px;font-size: 20px; margin-top: -270px;">FOR Restaurant</h5></p><br>
+      <p style="margin-left: 580px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Partner With Us</p><br>
+      <p style="margin-left: 580px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Apps For You</p><br>
+      <br><br>
+      <p><h5 style="margin-left: 580px;font-size: 20px">FOR ENTERPRISES</h5></p><br>
+      <p style="margin-left: 580px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Zomato For Enterprises</p><br>
+      <br>
+      <p><h5 style="margin-left: 880px;font-size: 20px; margin-top: -270px;">LEARN MORE</h5></p><br>
+      <p style="margin-left: 880px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">privacy</p><br>
+      <p style="margin-left: 880px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Security</p><br>
+      <p style="margin-left: 880px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Terms</p><br>
+      <p style="margin-left: 880px;font-size: 20px;color: rgba(0, 0, 0, 0.493);">Sitemap</p><br>
+      <br>
+      <p><h5 style="margin-left: 1080px;font-size: 20px; margin-top: -230px;">SOCIAL LINKS</h5></p><br>
+        <a href=""></a>
+        <a href="https://twitter.com/zomato" target="_blank"><i class="fa fa-twitter" style="font-size: 30px; color:rgb(8, 7, 7);margin-left: 1078px;"  class="h"></a></i>
+        <a href="https://www.instagram.com/zomato/" target="_blank"><i class="fa fa-instagram" style="font-size: 30px; color:rgb(0, 0, 0);margin-left: 10px;"  class="h"></a></i>
+        <a href="https://www.facebook.com/zomato" target="_blank"><i class="fa fa-facebook" style="font-size: 30px; color:rgb(0, 0, 0);margin-left: 10px;"   class="h"></a></i>
+        <a href="https://www.youtube.com/zomato" target="_blank"><i class="fa fa-youtube" style="font-size: 30px; color:rgb(0, 0, 0);margin-left: 1078px;"    class="h"></a></i>
+        <a href="https://in.linkedin.com/company/zomato?original_referer=https%3A%2F%2Fwww.zomato.com%2F" target="_blank"><i class="fa fa-linkedin" style="font-size: 30px; color:rgb(0, 0, 0);margin-left: 1078px;"   class="h"></a></i>
+        <br>
+        <br><br>
+        <a href="https://play.google.com/store/apps/details?id=com.application.zomato&_branch_match_id=1189470023781105862&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U/JL8/LyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D&pli=1"><img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" style="width: 180px;height: 49px; margin-left: 884px; margin-top: -5px;" ></a> <br>
+        <a href="https://apps.apple.com/in/app/zomato-food-restaurant-finder/id434613896?_branch_match_id=1189470023781105862&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3Kz00sydfNzC8GAFKYbuoiAAAA"><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="" style="width: 180px;height: 50px; margin-left: 884px; margin-top: -5px;" ></a>
+        <br>
+        <p style="margin-top:-2px; margin-left: 23px;">By Continuing past this page,you agree to our Terms of service,Cookie Policy,Privacy Policy and Content Policies. All the Trademarks are Properties of their respective  owners.2008-2023 zomato &copy; &trade; Ltd.All rights reserved</p>
+       </div>
+</body>
+</html>
